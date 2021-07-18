@@ -9,7 +9,7 @@ import "../../../App.css";
 
 const SeriesList = ({ data }) => {
   return (
-    <Card style={{ width: "18rem" }} key={data.id}>
+    <Card sm={6} md={6} lg={4} xl={3} style={{ width: "18rem" }} key={data.id}>
       <Card.Img
         variant="top"
         className="cart_image"

@@ -35,9 +35,9 @@ const Series = () => {
               return (
                 <Col
                   key={product.id}
-                  lg={3}
                   sm={6}
-                  md={4}
+                  md={6}
+                  lg={4}
                   xl={3}
                   className="mb-4"
                 >
